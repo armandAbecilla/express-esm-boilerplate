@@ -13,8 +13,6 @@ Welcome to the backend API for **MT Solutions Tracker** — a Node.js + Express 
 ├── models/               # Business logic (DB queries)
 ├── routes/               # API route handlers
 ├── services/             # MySQL connection & utilities
-├── images/               # Static image storage
-├── public/               # Optional frontend build/static assets
 ├── index.js              # Main Express entry point
 └── README.md             # This file
 ```
@@ -26,8 +24,8 @@ Welcome to the backend API for **MT Solutions Tracker** — a Node.js + Express 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/mt-solutions-tracker-api.git
-cd mt-solutions-tracker-api
+git clone https://github.com/armandAbecilla/express-esm-boilerplate.git
+cd express-esm-boilerplate
 ```
 
 2. **Install dependencies**
@@ -91,18 +89,6 @@ app.use('/api/my-route', myRouter);
 
 ---
 
-## 📁 File Uploads
-
-Uploaded files are saved under the `/images` directory (served as static files).
-
-You can access them via:
-
-```
-http://localhost:3000/images/<filename>
-```
-
----
-
 ## 🚫 .gitignore Notes
 
 This project ignores:
@@ -130,4 +116,4 @@ PRs and feature suggestions welcome! Fork the repo and create a feature branch t
 
 ## 🧾 License
 
-MIT © [Your Name or Company]
+MIT © Armand Abecilla
