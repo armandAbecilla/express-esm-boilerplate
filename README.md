@@ -1,4 +1,6 @@
-# 🚀 ExpressJS Boilerplate
+# 🚀 MT Solutions Tracker API
+
+Welcome to the backend API for **MT Solutions Tracker** — a Node.js + Express app that handles CRM, file uploads, and lookup data management. Built to be modular, secure, and ready for production.
 
 ---
 
@@ -22,6 +24,11 @@
 ## ⚙️ Environment Setup
 
 1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/mt-solutions-tracker-api.git
+cd mt-solutions-tracker-api
+```
 
 2. **Install dependencies**
 
@@ -56,12 +63,10 @@ The API will be available at:
 
 ## 📡 API Routes
 
-| Endpoint       | Method | Description          |
-| -------------- | ------ | -------------------- |
-| `/test`        | `GET`  | Test route           |
-| `/api/crm`     | `POST` | CRM data handling    |
-| `/api/lookups` | `GET`  | Lookup data          |
-| `/api/uploads` | `POST` | File upload endpoint |
+| Endpoint | Method | Description |
+| -------- | ------ | ----------- |
+| `/test`  | `GET`  | Test route  |
+|          |        |             |
 
 ---
 
@@ -83,6 +88,18 @@ app.use('/api/my-route', myRouter);
 - All code uses **ES Modules** (via `"type": "module"` in `package.json`)
 - Uses **async/await** pattern with error-handling middleware
 - Follows MVC structure: route → controller → model/service
+
+---
+
+## 📁 File Uploads
+
+Uploaded files are saved under the `/images` directory (served as static files).
+
+You can access them via:
+
+```
+http://localhost:3000/images/<filename>
+```
 
 ---
 
@@ -113,4 +130,4 @@ PRs and feature suggestions welcome! Fork the repo and create a feature branch t
 
 ## 🧾 License
 
-MIT © Armand Abecilla
+MIT © [Your Name or Company]
