@@ -1,6 +1,6 @@
 const config = {
   EnvSettings: {
-    Port: 3001,
+    Port: 3000,
   },
 };
 
