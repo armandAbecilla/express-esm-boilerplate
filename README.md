@@ -1,8 +1,4 @@
-# 🚀 MT Solutions Tracker API
-
-Welcome to the backend API for **MT Solutions Tracker** — a Node.js + Express app that handles CRM, file uploads, and lookup data management. Built to be modular, secure, and ready for production.
-
----
+# 🚀 ExpressJS Backend Boilerplate
 
 ## 📦 Project Structure
 
